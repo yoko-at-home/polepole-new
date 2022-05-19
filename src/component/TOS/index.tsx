@@ -7,7 +7,7 @@ export const TOS=()=> {
     <div className="tos">
       <PageTitle>ポレポーレ会則</PageTitle>
 
-      <div className="flex overflow-scroll flex-wrap px-20 w-full bg-[#f8f9fa] rounded tos-contents__wrapper">
+      <div className="flex overflow-scroll flex-wrap w-full bg-[#f8f9fa] rounded sm:px-20 tos-contents__wrapper">
         <main style={{ width: "100%" }}>
           <h4>第１章 総則 </h4>
           <dt>第１条 (名称) </dt>

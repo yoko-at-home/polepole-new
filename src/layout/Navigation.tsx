@@ -26,7 +26,7 @@ const Navigation = ({ inView }: Props) => {
         {items.map(({ href, label }) => {
           return (
             <NavLink key={href} href={href} activeClassName="z-50 bg-[#7b983c]/40 text-white">
-              <a className="inline-block py-6 px-5 text-lg  font-semibold hover:text-pink-50 whitespace-nowrap hover:bg-lime-500 bg-gradient-to-r focus:from-[#d08b6f] focus:to-[#a653a6] sm:p-4 sm:text-2xl">
+              <a className="inline-block p-3 text-lg font-semibold hover:text-pink-50  whitespace-nowrap hover:bg-lime-500 bg-gradient-to-r focus:from-[#d08b6f] focus:to-[#a653a6] sm:p-4 sm:py-6 sm:px-5 sm:text-2xl">
                 {label}
               </a>
             </NavLink>
