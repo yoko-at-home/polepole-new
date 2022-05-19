@@ -1,0 +1,44 @@
+import cc from "classcat";
+import { useRouter } from "next/router";
+import type { FC, ReactNode } from "react";
+import { useInView } from "react-intersection-observer";
+import Navigation from "src/layout/Navigation";
+
+import { Footer } from "./Footer";
+import { Header } from "./Header";
+import { LayoutErrorBoundary } from "./LayoutErrorBoundary";
+
+type Props = {
+  className?: string;
+  width?: "main" | "product";
+  children: ReactNode;
+  inView?: boolean;
+};
+
+/**
+ * @package
+ */
+export const FluidLayout: FC<Props> = (props) => {
+  /* eslint-disable @typescript-eslint/naming-convention */
+  const { inView, ref } = useInView({ threshold: 0 });
+  const router = useRouter();
+  const url = "/aboutus";
+  return (
+    <div className="relative">
+      <Navigation inView={inView} />
+      <div ref={ref} />
+      {router.pathname === url ? <Header opacity="0" /> : <Header opacity="100" />}
+      <div className="-z-10 mt-60 sm:mt-40">
+        <main
+          className={cc([
+            { "mx-8 sm:mx-10 md:mx-auto md:w-11/12 lg:w-9/12": props.width === "main" },
+            { "mx-8 sm:mx-10 md:mx-auto md:w-11/12": props.width === "product" },
+          ])}
+        >
+          <LayoutErrorBoundary>{props.children}</LayoutErrorBoundary>
+        </main>
+      </div>
+      <Footer />
+    </div>
+  );
+};
