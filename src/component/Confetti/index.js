@@ -1,6 +1,5 @@
-import  { useEffect,useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Confetti from "react-confetti";
-
 
 export default function ConfettiSection() {
   const [height, setHeight] = useState(null);
@@ -14,12 +13,8 @@ export default function ConfettiSection() {
 
   return (
     <>
-      <div
-        className="relative z-50 p-0 w-screen h-screen"
-        ref={confetiRef}
-      >
+      <div className="relative z-50 p-0 w-screen h-screen" ref={confetiRef}>
         <Confetti numberOfPieces={150} width={width} height={height} />
-
       </div>
     </>
   );

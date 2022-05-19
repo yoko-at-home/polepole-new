@@ -6,7 +6,6 @@ import { FluidLayout } from "src/layout";
 
 import { siteMetadata } from "../../data/siteMetaData";
 
-
 const AboutUs = () => {
   return (
     <>
@@ -50,4 +49,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs
+export default AboutUs;

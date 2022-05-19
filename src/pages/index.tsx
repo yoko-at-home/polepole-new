@@ -1,7 +1,7 @@
 import type { FC } from "react";
 import { Activity } from "src/component/Activity";
 import { History } from "src/component/History";
-import {TimelineItem} from "src/component/History/TimeLineItem";
+import { TimelineItem } from "src/component/History/TimeLineItem";
 import { ProductMainTitle } from "src/component/PageTitle";
 import { PageSEO } from "src/component/SEO";
 import { Songs } from "src/component/Songs";
@@ -37,11 +37,11 @@ const Home: FC<BasicObjectProps> = (props) => {
                 __html: `${props.data.body}`,
               }}
             />
-            <Activity/>
-            <Songs/>
-            <TimelineItem/>
-            <History/>
-            <TOS/>
+            <Activity />
+            <Songs />
+            <TimelineItem />
+            <History />
+            <TOS />
           </FluidLayout>
         </div>
       </div>

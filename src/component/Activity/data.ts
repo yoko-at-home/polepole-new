@@ -10,7 +10,8 @@ export const data = [
   {
     iconName: "/static/svg/compass-navigator.svg",
     header: "音楽祭参加",
-    content: "コロナにより中断していましたが、再開に向けて着々と歩みを進めています。湘南合唱祭、座間市民音楽祭参加決定❣️",
+    content:
+      "コロナにより中断していましたが、再開に向けて着々と歩みを進めています。湘南合唱祭、座間市民音楽祭参加決定❣️",
   },
   {
     iconName: "/static/svg/engine-gears.svg",

@@ -3,8 +3,7 @@ import type { NextPage } from "next";
 
 import { data } from "./data";
 
-
-export const Team:NextPage = () => {
+export const Team: NextPage = () => {
   return (
     <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:px-3 lg:grid-cols-3">
       {data.map((item) => {
@@ -18,4 +17,4 @@ export const Team:NextPage = () => {
       })}
     </div>
   );
-}
+};

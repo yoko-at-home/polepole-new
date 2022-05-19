@@ -11,7 +11,7 @@ import { timeline } from "./data";
 //   content:string;
 // };
 
-export const TimelineItem:NextPage = () => {
+export const TimelineItem: NextPage = () => {
   return (
     <div className="h-72 bg-red-100">
       {timeline.map((item) => {
@@ -20,7 +20,8 @@ export const TimelineItem:NextPage = () => {
             <img className="rounded-circle img-fluid" src={item.imageFileName} alt={item.subheader} />
           </div>
           <div className="timeline-panel">
-            <div className="timeline-body">aaaa
+            <div className="timeline-body">
+              aaaa
               <p className="text-muted">{item.content}</p>
             </div>
           </div>

@@ -2,7 +2,7 @@
 
 import { PageTitle } from "src/component/PageTitle";
 
-export const TOS=()=> {
+export const TOS = () => {
   return (
     <div className="tos">
       <PageTitle>ポレポーレ会則</PageTitle>
@@ -259,4 +259,4 @@ export const TOS=()=> {
       `}</style>
     </div>
   );
-}
+};

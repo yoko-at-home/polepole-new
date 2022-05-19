@@ -1,4 +1,4 @@
-# 女声合唱団ポレポーレのWebサイト
+# 女声合唱団ポレポーレの Web サイト
 
 - Next.js
 - TypeScript

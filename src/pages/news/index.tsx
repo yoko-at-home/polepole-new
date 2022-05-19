@@ -52,14 +52,16 @@ const News: FC<Props> = (props) => {
       <ul>
         {props.data.map((item) => {
           return (
-            <li key={item.id} >
+            <li key={item.id}>
               <div className="flex flex-col p-8 mb-10 bg-gray-200/50 rounded shadow-lg sm:p-3">
                 <div className="mb-3 font-semibold sm:font-bold">{item.title}</div>
                 <div className="flex flex-row-reverse justify-between items-center">
                   <Link href={`/news/${item.id}`} passHref>
                     <a aria-label="Read more">
                       {item.content === undefined ? null : (
-                        <span className="py-3 px-5 ml-5 font-bold text-slate-500 whitespace-nowrap bg-primary animate-pulse">詳細はこちら</span>
+                        <span className="py-3 px-5 ml-5 font-bold text-slate-500 whitespace-nowrap bg-primary animate-pulse">
+                          詳細はこちら
+                        </span>
                       )}
                     </a>
                   </Link>

@@ -4,7 +4,6 @@
 import cc from "classcat";
 import type { FC } from "react";
 
-
 type Props = {
   className?: string;
   opacity?: "100" | "80" | "0";

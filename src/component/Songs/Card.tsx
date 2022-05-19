@@ -28,8 +28,8 @@ export const CardModal: NextPage<Props> = (props) => {
           <p className="text-sm font-bold leading-loose text-green-900 prose sm:mt-10 sm:mb-3 sm:text-lg">
             {props.content}
           </p>
+        </div>
       </div>
-    </div>
     </div>
   );
 };
