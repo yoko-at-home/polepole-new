@@ -4,9 +4,9 @@ import type { NextPage } from "next";
 export type CardProps = {
   imageFileName?: string;
   imageFileNameDetail?: string;
-  header: string;
-  subheader: string;
-  content: string;
+  header?: string;
+  subheader?: string;
+  content?: string;
   extraInfo?: string;
   extraInfo2?: string;
 };
