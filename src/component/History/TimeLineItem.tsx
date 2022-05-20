@@ -2,6 +2,7 @@
 /* eslint-disable tailwindcss/no-custom-classname */
 import "react-vertical-timeline-component/style.min.css";
 
+import Link from "next/link";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import { PageTitle } from "src/component/PageTitle";
 
@@ -25,14 +26,12 @@ export const TimeLineItem = () => {
         })}
       </VerticalTimeline>
       <div className="z-50 mx-auto mt-10 w-full">
-        <span className="p-10  font-extrabold text-center text-white whitespace-nowrap bg-blue-500 rounded-full ptext-2xl">
-          ✨ 団員募集中 ✨
-        </span>
+        <Link href="/contact">
+          <a className="p-10  font-extrabold text-center text-white whitespace-nowrap bg-blue-500 rounded-full ptext-2xl">
+            ✨ 団員募集中 ✨
+          </a>
+        </Link>
       </div>
     </div>
   );
 };
-
-// header={header}
-// subheader={d.subheader}
-// content={d.content}
