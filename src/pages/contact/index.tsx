@@ -19,15 +19,13 @@ const Contact: NextPage = () => {
       <PageTitle>お問い合わせ</PageTitle>
       <div className="font-bold text-zinc-700">
         お電話によるお問合せ（代表：加藤）：
-        <a className="hover:text-primary" href="tel:+0467-76-5286">
+        <a className="text-blue-500 hover:text-primary" href="tel:+0467765286">
           0467-76-5286
         </a>
       </div>
 
-      <div className="text-zinc-700">
-        メールによるお問合せは以下のフォームを利用してください。
-        <FormContact />
-      </div>
+      <div className="my-6 text-zinc-700">メールによるお問合せは以下のフォームをご利用ください✨</div>
+      <FormContact />
     </FluidLayout>
   );
 };
