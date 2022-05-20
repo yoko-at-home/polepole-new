@@ -1,14 +1,10 @@
 /* eslint-disable tailwindcss/no-custom-classname */
 
-import { PageTitle } from "src/component/PageTitle";
-
 export const TOS = () => {
   return (
     <div className="tos">
-      <PageTitle>ポレポーレ会則</PageTitle>
-
-      <div className="flex overflow-scroll flex-wrap w-full bg-[#f8f9fa] rounded sm:px-20 tos-contents__wrapper">
-        <main style={{ width: "100%" }}>
+      <div className="flex overflow-scroll flex-wrap px-6 w-full bg-[#f8f9fa] rounded sm:px-20 tos-contents__wrapper">
+        <main>
           <h4>第１章 総則 </h4>
           <dt>第１条 (名称) </dt>
           <dd>本会は、ポレポーレと称する。(2020年７月１日設立) </dd>
@@ -204,8 +200,7 @@ export const TOS = () => {
       </div>
       <style jsx>{`
         .tos {
-          height: 50vh;
-          max-width: 85%;
+          height: 70vh;
           display: flex;
           flex-direction: column;
           justify-content: flex-start;

@@ -6,6 +6,7 @@ const items = [
   { href: "/news", label: "News" },
   { href: "/aboutus", label: "Member" },
   { href: "/contact", label: "Contact" },
+  { href: "/tos", label: "会則" },
 ];
 
 type Props = {
