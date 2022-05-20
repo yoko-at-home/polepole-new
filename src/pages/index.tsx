@@ -38,7 +38,7 @@ const Home: FC<BasicObjectProps> = (props) => {
               }}
             />
             <Activity />
-            <Songs />
+            <Songs header={""} subheader={""} content={""} />
             <TimelineItem />
             <History />
             <TOS />
