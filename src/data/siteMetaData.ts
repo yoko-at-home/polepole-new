@@ -1,8 +1,7 @@
 export const siteMetadata = {
   author: "ポレポーレ",
   title: "ポレポーレ ポレポーレ",
-  description:
-    "ポレポーレは、香気成分分析用のソフトウェアや、においの研究に関する製品をご紹介しています。ガスクロマトグラフィ- 質量分析計、その他に関する各種ご相談をお受けいたします。",
+  description: "ポレポーレは、座間市で活動する女性合唱団です。団員募集中✨",
   language: "jp-ja",
   siteUrl: "https://www.polepole.netlify.app",
   siteLogo: "/static/images/logo.png",
