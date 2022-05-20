@@ -26,7 +26,7 @@ export const TimeLineItem = () => {
         })}
       </VerticalTimeline>
       <div className="z-50 mx-auto mt-10 w-full">
-        <Link href="/contact">
+        <Link href="/contact" passHref>
           <a className="p-10  font-extrabold text-center text-white whitespace-nowrap bg-blue-500 rounded-full ptext-2xl">
             ✨ 団員募集中 ✨
           </a>
