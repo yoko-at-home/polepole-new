@@ -11,7 +11,7 @@ const MyDocument = () => {
         <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png" />
         <link rel="manifest" href="/static/favicons/site.webmanifest" crossOrigin="use-credentials" />
-        {/* <link rel="mask-icon" href="/static/favicons/safari-pinned-tab.svg" color="#e6830b" /> */}
+        {/* <link rel="mask-icon" href="/static/favicons/safari-pinned-tab.svg" color="#f1f903" /> */}
         {/* インデックス（再）登録のリクエスト処理 */}
         <meta name="google-site-verification" content="tbi8VEYGkbgp_2NDtH2iBpbxciUV7jkGINfZBZq5_xs" />
         {/* windows */}
@@ -27,7 +27,7 @@ const MyDocument = () => {
         <link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/apple-touch-icon-180x180.png" />
         {/* 一般 */}
         <meta name="application-name" content={siteMetadata.title} />
-        <meta name="theme-color" content="#e6830b" />
+        <meta name="theme-color" content="#f1f903" />
         <meta name="description" content={siteMetadata.description} />
         <link rel="icon" sizes="192x192" href="/static/favicons/icon-192x192.png" />
         <link rel="icon" href="/static/favicons/favicon.ico" />
