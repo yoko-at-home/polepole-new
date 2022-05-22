@@ -53,13 +53,13 @@ const News: FC<Props> = (props) => {
         {props.data.map((item) => {
           return (
             <li key={item.id}>
-              <div className="flex flex-col p-8 mb-10 bg-gray-200/50 rounded shadow-lg sm:p-3">
-                <div className="mb-3 font-semibold sm:font-bold">{item.title}</div>
+              <div className="flex flex-col p-8 mb-10  bg-gradient-to-r from-lime-500/50 via-slate-500/20 to-purple-500/30 rounded shadow-lg">
+                <div className="mb-3 text-xl font-semibold sm:font-bold">{item.title}</div>
                 <div className="flex flex-row-reverse justify-between items-center">
                   <Link href={`/news/${item.id}`} passHref>
                     <a aria-label="Read more">
                       {item.content === undefined ? null : (
-                        <span className="py-3 px-5 ml-5 font-bold text-slate-500 whitespace-nowrap bg-primary animate-pulse">
+                        <span className="p-2 ml-5 font-bold text-slate-900 whitespace-nowrap bg-primary shadow-lg shadow-slate-100 animate-pulse sm:py-3 sm:px-5">
                           詳細はこちら
                         </span>
                       )}
