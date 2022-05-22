@@ -25,7 +25,7 @@ export const FixedLayout: FC<Props> = (props) => {
       <Navigation inView={inView} />
       <div ref={ref} />
       <Header opacity="80" />
-      <div className="flex -z-10 justify-center pt-40 lg:mt-12">
+      <div className="flex -z-10 justify-center mt-96">
         <main className="mx-8 sm:mx-auto">
           <LayoutErrorBoundary>{props.children}</LayoutErrorBoundary>
         </main>
