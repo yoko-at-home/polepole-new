@@ -28,7 +28,7 @@ const MyDocument = () => {
         <meta name="theme-color" content="#f1f903" />
         <meta name="description" content={siteMetadata.description} />
         <link rel="icon" sizes="192x192" href="/static/favicons/icon-192x192.png" />
-        <link rel="icon" href="/static/favicons/favicon.ico" />
+        <link rel="icon" href="/static/favicons/icon-36x36.png" />
         <meta name="twitter:url" content={siteMetadata.ogImage} />
         <meta name="twitter:title" content={siteMetadata.description} />
         {/* <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials" /> */}
