@@ -37,7 +37,13 @@ export const Songs: NextPage<CardProps> = (props) => {
                 return handleOnClick(d);
               }}
             >
-              <Card imageFileName={d.imageFileName} header={d.header} content={d.content} subheader={d.subheader} />
+              <Card
+                key={d.header}
+                imageFileName={d.imageFileName}
+                header={d.header}
+                content={d.content}
+                subheader={d.subheader}
+              />
             </button>
           );
         })}

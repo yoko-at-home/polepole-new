@@ -9,6 +9,7 @@ export type CardProps = {
   content?: string;
   extraInfo?: string;
   extraInfo2?: string;
+  key?: string;
 };
 
 export const Card: NextPage<CardProps> = (props) => {
