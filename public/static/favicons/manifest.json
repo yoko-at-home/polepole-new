@@ -1,8 +1,8 @@
 {
-	"name":				"",
-	"short_name":		"",
-	"description":		"",
-	"start_url":		"/",
+	"name":				"女声合唱団 ポレポーレ",
+	"short_name":		"ポレポーレ",
+	"description":		"女声合唱団  ポレポーレ",
+	"start_url":		"https://www.polepole.netlify.app/",
 	"display":			"standalone",
 	"orientation":		"any",
 	"background_color":	"#fff",
