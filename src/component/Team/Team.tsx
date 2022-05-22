@@ -24,14 +24,14 @@ export const Team: NextPage = () => {
             <ConfettiSmall />
             <div className="absolute top-0 left-[20%] p-2 mx-auto w-40 h-40">
               <Image
-                className="w-40 h-40 rounded-full shadow-inner shadow-slate-300"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGCcZxzO3sodtdsVVGHl2UJUrW6PnydcK6Ug&usqp=CAU"
+                className="w-40 h-40 rounded-full"
+                src="/static/images/team/team.webp"
                 alt="お問合せ"
                 width={140}
                 height={140}
               />
             </div>
-            <p className="text-xl font-black">💃 Come and join us 💃 </p>
+            <p className="pb-6 text-xl font-black">💃 Come and join us 💃 </p>
           </div>
         </a>
       </Link>
