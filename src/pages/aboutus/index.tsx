@@ -1,4 +1,4 @@
-import ConfettiSection from "src/component/Confetti";
+import { ConfettiSection } from "src/component/Confetti";
 import { PageTitle } from "src/component/PageTitle";
 import { PageSEO } from "src/component/SEO";
 import { Team } from "src/component/Team";
@@ -39,9 +39,7 @@ const AboutUs = () => {
                 ポレポーレのメンバー
               </span>
             </PageTitle>
-            {/* <div className="container flex flex-col mx-auto mt-3"> */}
             <Team />
-            {/* </div> */}
           </div>
         </FluidLayout>
       </div>

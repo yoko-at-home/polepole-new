@@ -89,10 +89,10 @@ export const data = [
     header: "Mitsuko Enomoto",
     subheader: "アルト キラキラの新人✨",
   },
-  {
-    imageFileName:
-      "https://images.unsplash.com/photo-1546842931-886c185b4c8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJsb3Nzb218ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
-    header: "貴女",
-    subheader: "一緒に歌いませんか✨",
-  },
+  // {
+  //   imageFileName:
+  //     "https://images.unsplash.com/photo-1546842931-886c185b4c8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJsb3Nzb218ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+  //   header: "貴女",
+  //   subheader: "一緒に歌いませんか✨",
+  // },
 ];

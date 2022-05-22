@@ -10,7 +10,7 @@ module.exports = withPWA({
   typescript: { ignoreDevErrors: true },
   poweredByHeader: false,
   images: {
-    domains: ["images.microcms-assets.io"],
+    domains: ["images.microcms-assets.io", "encrypted-tbn0.gstatic.com"],
   },
   pwa: {
     dest: "public",
