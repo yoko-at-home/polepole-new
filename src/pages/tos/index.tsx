@@ -8,7 +8,7 @@ import { client } from "src/lib/client";
 
 const Private: FC = () => {
   return (
-    <FluidLayout width="main">
+    <FluidLayout>
       <PageSEO
         title={`ポレポーレ会則 - ${siteMetadata.title}`}
         description={siteMetadata.description}

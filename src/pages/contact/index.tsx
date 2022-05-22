@@ -8,7 +8,7 @@ import { FluidLayout } from "src/layout";
 
 const Contact: NextPage = () => {
   return (
-    <FluidLayout width="main">
+    <FluidLayout>
       <PageSEO
         title={`Contact- ${siteMetadata.title}`}
         description={siteMetadata.description}

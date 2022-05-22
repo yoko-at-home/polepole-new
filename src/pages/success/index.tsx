@@ -10,7 +10,7 @@ import { FluidLayout } from "src/layout";
 const Success: NextPage = () => {
   const router = useRouter();
   return (
-    <FluidLayout width="main">
+    <FluidLayout>
       <PageSEO
         title={`Success- ${siteMetadata.title}`}
         description={siteMetadata.description}

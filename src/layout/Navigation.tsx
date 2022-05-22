@@ -20,14 +20,14 @@ const Navigation = ({ inView }: Props) => {
       <nav
         className={
           inView
-            ? "flex flex-wrap justify-center w-screen text-slate-400 bg-[#baf213]/90"
+            ? "flex flex-wrap justify-center w-screen text-slate-400 bg-[#baf213]"
             : "flex flex-wrap justify-center w-screen text-slate-400 z-50 top-[0%] backdrop-blur bg-primary/40"
         }
       >
         {items.map(({ href, label }) => {
           return (
             <NavLink key={href} href={href} activeClassName="z-50 bg-[#7b983c]/40 text-white">
-              <a className="inline-block p-3 text-lg font-semibold hover:text-pink-50  whitespace-nowrap hover:bg-lime-500 bg-gradient-to-r focus:from-[#d08b6f] focus:to-[#a653a6] sm:p-4 sm:py-6 sm:px-5 sm:text-2xl">
+              <a className="inline-block p-2 text-lg font-semibold hover:text-pink-50 whitespace-nowrap  hover:bg-lime-500 bg-gradient-to-r focus:from-[#d08b6f] focus:to-[#a653a6] sm:py-4 sm:px-5 sm:text-2xl">
                 {label}
               </a>
             </NavLink>

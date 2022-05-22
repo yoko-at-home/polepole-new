@@ -13,13 +13,13 @@ const Home: FC<BasicObjectProps> = (props) => {
   return (
     <>
       <div
-        className="absolute top-0 w-full min-h-screen bg-bottom bg-repeat"
-        style={{
-          backgroundImage: "url('/static/images/about/bg.jpeg')",
-        }}
+      // className="absolute top-0 w-full min-h-screen bg-bottom bg-repeat"
+      // style={{
+      //   backgroundImage: "url('/static/images/about/bg.jpeg')",
+      // }}
       >
-        <div className="z-40 text-zinc-700 bg-white/90">
-          <FluidLayout width="main">
+        <div className="z-40 text-zinc-700">
+          <FluidLayout>
             <PageSEO
               title={`${siteMetadata.title}`}
               description={siteMetadata.description}

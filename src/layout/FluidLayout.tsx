@@ -1,4 +1,3 @@
-import cc from "classcat";
 import { useRouter } from "next/router";
 import type { FC, ReactNode } from "react";
 import { useInView } from "react-intersection-observer";
@@ -10,7 +9,6 @@ import { LayoutErrorBoundary } from "./LayoutErrorBoundary";
 
 type Props = {
   className?: string;
-  width?: "main" | "product";
   children: ReactNode;
   inView?: boolean;
 };
@@ -27,17 +25,25 @@ export const FluidLayout: FC<Props> = (props) => {
     <div className="relative">
       <Navigation inView={inView} />
       <div ref={ref} />
-      {router.pathname === url ? <Header opacity="0" /> : <Header opacity="100" />}
-      <div className="-z-10 mt-60 sm:mt-40">
-        <main
-          className={cc([
-            { "mx-8 sm:mx-10 md:mx-auto md:w-11/12 lg:w-9/12": props.width === "main" },
-            { "mx-8 sm:mx-10 md:mx-auto md:w-11/12": props.width === "product" },
-          ])}
-        >
-          <LayoutErrorBoundary>{props.children}</LayoutErrorBoundary>
-        </main>
-      </div>
+      {router.pathname === url ? (
+        <>
+          <Header opacity="0" />
+          <div className="-z-10 mt-0">
+            <main className="mx-6 sm:mx-10 md:mx-auto md:w-11/12 lg:w-9/12">
+              <LayoutErrorBoundary>{props.children}</LayoutErrorBoundary>
+            </main>
+          </div>
+        </>
+      ) : (
+        <>
+          <Header opacity="100" />
+          <div className="-z-10 mt-96">
+            <main className="mx-6 sm:mx-10 md:mx-auto md:w-11/12 lg:w-9/12">
+              <LayoutErrorBoundary>{props.children}</LayoutErrorBoundary>
+            </main>
+          </div>
+        </>
+      )}
       <Footer />
     </div>
   );

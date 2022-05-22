@@ -9,7 +9,7 @@ import { FluidLayout } from "src/layout";
 
 const Custom404: NextPage = () => {
   return (
-    <FluidLayout width="main">
+    <FluidLayout>
       <PageSEO
         title={`Page Not Found- ${siteMetadata.title}`}
         description={siteMetadata.description}

@@ -25,7 +25,7 @@ type Props = {
 
 const News: FC<Props> = (props) => {
   return (
-    <FluidLayout width="main">
+    <FluidLayout>
       <PageSEO
         title={`News - ${siteMetadata.title}`}
         description={siteMetadata.description}

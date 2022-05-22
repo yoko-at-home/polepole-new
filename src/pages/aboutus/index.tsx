@@ -15,14 +15,14 @@ const AboutUs = () => {
         </div>
       </div>
       <div
-        className="absolute top-0 w-full min-h-screen bg-top bg-cover"
+        className="absolute top-0 w-full min-h-screen bg-center bg-cover"
         style={{
           backgroundImage:
             "url('https://images.unsplash.com/photo-1521287329847-ec334c5517fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGJsb3Nzb218ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60')",
           opacity: ".9",
         }}
       >
-        <FluidLayout width="main">
+        <FluidLayout>
           <PageSEO
             title={`About Us - ${siteMetadata.title}`}
             description={siteMetadata.description}
@@ -39,9 +39,9 @@ const AboutUs = () => {
                 ポレポーレのメンバー
               </span>
             </PageTitle>
-            <div className="container flex flex-col mx-auto mt-3 text-gray-300">
-              <Team />
-            </div>
+            {/* <div className="container flex flex-col mx-auto mt-3"> */}
+            <Team />
+            {/* </div> */}
           </div>
         </FluidLayout>
       </div>

@@ -10,7 +10,7 @@ import { data } from "./data";
 
 export const TimeLineItem = () => {
   return (
-    <div className="text-center" style={{ background: "#ece7e7", fontFamily: "Trebuchet Ms" }}>
+    <div className="text-center bg-[#ece7e7]" style={{ fontFamily: "Trebuchet Ms" }}>
       <PageTitle>🚢　🚢　🚢</PageTitle>
       <VerticalTimeline>
         {data.map((event) => {
@@ -25,7 +25,7 @@ export const TimeLineItem = () => {
           );
         })}
       </VerticalTimeline>
-      <div className="z-50 mx-auto mt-10 w-full">
+      <div className="z-50 mx-auto mt-10 w-full h-36 bg-[#ece7e7]">
         <Link href="/contact" passHref>
           <a className="p-10  font-extrabold text-center text-white whitespace-nowrap bg-blue-500 rounded-full ptext-2xl">
             ✨ 団員募集中 ✨
