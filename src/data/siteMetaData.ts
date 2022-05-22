@@ -6,6 +6,7 @@ export const siteMetadata = {
   siteUrl: "https://www.polepole.netlify.app",
   siteLogo: "/static/images/logo.png",
   image: "/static/images/logo.png",
+  ogImage: "/static/twitter.jpg",
   email: "yoko.iwasaki8@gmail.com",
   locale: "ja-JP",
   altForImages: "イメージ図",
