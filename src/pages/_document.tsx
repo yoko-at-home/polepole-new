@@ -32,7 +32,7 @@ const MyDocument = () => {
         <meta name="twitter:title" content={siteMetadata.description} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@yokoiwasaki6" />
-        <meta name="twitter:image" content={siteMetadata.ogImage}></meta>
+        <meta name="twitter:image" content={`${siteMetadata}${siteMetadata.ogImage}`}></meta>
         {/* <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials" /> */}
         {/* <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@900&display=swap" rel="stylesheet" /> */}
         <link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap" rel="stylesheet"></link>
