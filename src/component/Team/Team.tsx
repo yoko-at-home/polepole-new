@@ -19,7 +19,7 @@ export const Team: NextPage = () => {
         );
       })}
       <Link href="/contact" passHref>
-        <a className="p-5">
+        <a className="p-5" aria-label="to contact">
           <div className="relative mb-10 min-w-full text-center bg-yellow-300 rounded-xl border-4">
             <ConfettiSmall />
             <div className="absolute top-0 left-[20%] p-2 mx-auto w-40 h-40">
@@ -31,7 +31,15 @@ export const Team: NextPage = () => {
                 height={140}
               />
             </div>
-            <p className="pb-6 text-xl font-black">💃 Come and join us 💃 </p>
+            <div className="flex flex-col pb-6">
+              <div className="">💃</div>
+              <div className="flex justify-center items-center">
+                <div className="animate-bounce">💃</div>
+                <p className="px-2 text-xl font-black text-white">Come and join us!</p>
+                <span className="animate-bounce">💃</span>
+              </div>
+              <span className="animate-spin">💃</span>
+            </div>
           </div>
         </a>
       </Link>
