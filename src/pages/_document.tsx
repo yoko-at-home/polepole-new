@@ -29,8 +29,10 @@ const MyDocument = () => {
         <meta name="description" content={siteMetadata.description} />
         <link rel="icon" sizes="192x192" href="/static/favicons/icon-192x192.png" />
         <link rel="icon" href="/static/favicons/icon-36x36.png" />
-        <meta name="twitter:url" content={siteMetadata.ogImage} />
         <meta name="twitter:title" content={siteMetadata.description} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@yokoiwasaki6" />
+        <meta name="twitter:image" content={siteMetadata.ogImage}></meta>
         {/* <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials" /> */}
         {/* <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@900&display=swap" rel="stylesheet" /> */}
         <link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap" rel="stylesheet"></link>
