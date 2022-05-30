@@ -42,7 +42,7 @@ export const data = [
   {
     imageFileName: "static/images/team/asano.webp",
     header: "Hitomi Asano",
-    subheader: "メゾ・ソプラノ",
+    subheader: "メゾソプラノ",
   },
   {
     imageFileName: "static/images/team/ozaki.webp",
@@ -52,12 +52,12 @@ export const data = [
   {
     imageFileName: "static/images/team/namatame.webp",
     header: "Mieko Namatame",
-    subheader: "メゾ・ソプラノ",
+    subheader: "メゾソプラノ",
   },
   {
     imageFileName: "static/images/team/kaoru.webp",
     header: "Kaoru Yamada",
-    subheader: "メゾ・ソプラノ",
+    subheader: "メゾソプラノ",
   },
   {
     imageFileName: "static/images/team/kato.webp",
