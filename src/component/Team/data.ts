@@ -12,82 +12,82 @@ export const data = [
   {
     imageFileName: "static/images/team/takamiya.webp",
     header: "Hiroko Takamiya",
-    subheader: "ソプラノ 会長 1st コンサート実行委員長",
+    subheader: "ソプラノ",
   },
   {
     imageFileName: "static/images/team/kano.webp",
     header: "Mariko Kano",
-    subheader: "アルト 1st コンサート実行副委員長",
+    subheader: "アルト",
   },
   {
     imageFileName: "static/images/team/shima.webp",
     header: "Miyuki Shimanouchi",
-    subheader: "ソプラノ 1st コンサート衣装担当",
+    subheader: "ソプラノ",
   },
   {
     imageFileName: "static/images/team/konta.webp",
     header: "Wakako Konta",
-    subheader: "メゾソプラノ 1st コンサート衣装担当",
+    subheader: "メゾソプラノ",
   },
   {
     imageFileName: "static/images/team/watanabe.webp",
     header: "Kyouko Watanabe",
-    subheader: "ソプラノ 1st コンサート会計担当",
+    subheader: "ソプラノ",
   },
   {
     imageFileName: "static/images/team/akiko-goto.webp",
     header: "Akiko Goto",
-    subheader: "メゾソプラノ 1st 舞台関係担当",
+    subheader: "メゾソプラノ",
   },
   {
     imageFileName: "static/images/team/asano.webp",
     header: "Hitomi Asano",
-    subheader: "メゾ・ソプラノ 1st コンサートチケット管理",
+    subheader: "メゾ・ソプラノ",
   },
   {
     imageFileName: "static/images/team/ozaki.webp",
     header: "Masako Ozaki",
-    subheader: "ソプラノ 1st コンサートチケット管理",
+    subheader: "ソプラノ",
   },
   {
     imageFileName: "static/images/team/namatame.webp",
     header: "Mieko Namatame",
-    subheader: "メゾ・ソプラノ 1st コンサートチケット管理",
+    subheader: "メゾ・ソプラノ",
   },
   {
     imageFileName: "static/images/team/kaoru.webp",
     header: "Kaoru Yamada",
-    subheader: "メゾ・ソプラノ 1st コンサート控え室管理",
+    subheader: "メゾ・ソプラノ",
   },
   {
     imageFileName: "static/images/team/kato.webp",
     header: "Jyunko Kato",
-    subheader: "アルト 1st コンサート看板作成",
+    subheader: "アルト 会長",
   },
   {
     imageFileName: "static/images/team/hitomi.webp",
     header: "Hitomi Goto",
-    subheader: "アルト 1st コンサート著作権関連担当",
+    subheader: "アルト",
   },
   {
     imageFileName: "static/images/team/seino.webp",
     header: "Yukie Seino",
-    subheader: "アルト 1st コンサートお花担当",
+    subheader: "アルト 副会長",
   },
   {
     imageFileName: "static/images/team/nozomi.webp",
     header: "Nozomi Nakamoto",
-    subheader: "アルト 1st コンサート印刷手配担当",
+    subheader: "アルト",
   },
   {
     imageFileName: "static/images/team/yoko.webp",
     header: "Yoko Iwasaki",
-    subheader: "ソプラノ 1st コンサート 広報担当",
+    subheader: "ソプラノ",
   },
   {
     imageFileName: "static/images/team/mitsuko.webp",
     header: "Mitsuko Enomoto",
-    subheader: "アルト キラキラの新人✨",
+    subheader: "アルト",
   },
   // {
   //   imageFileName:
